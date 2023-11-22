@@ -1,0 +1,247 @@
+
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+body{
+    background: #eeeeee;
+    color: #30303b;
+    
+}
+header{
+    
+    background-color: #808080;
+    margin-top: 0;
+    margin-bottom: 50px;
+    
+    /*margin-top: -20px;
+    padding: -20;*/
+}
+.text-label{
+    font-family: 'Playfair Display', serif;
+    color: #0000FF;
+    font-size: 40px;
+    margin-left: 30px;
+    padding-bottom: 25px;
+    margin-top: -5px;
+}
+ul.header_menu {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 20px; /* Значение полей */
+    margin-left: 25px;
+}
+
+ul.header_menu li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 15px; /* Отступ слева */
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: black;
+}
+
+.header-style{
+    padding-top: 15px;
+}
+
+.header_menu-label{
+    float: right;
+    margin-right: 5%;
+    margin-top: -75px;
+    width: 500px;
+    height: auto;
+    
+}
+.menu-item{
+    text-decoration: none;
+    color: black;
+}
+.menu-item:visited{
+    color: black;
+}
+.auth-link{
+    float: right;
+    margin-right: 8%;
+    margin-top: -3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.auth-link a{
+    color: black;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #808080;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+.product-name {
+    cursor: pointer;
+    color: #007bff;
+}
+
+.product-details {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-details img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.prod-img{
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 5px;
+}
+
+/* Стили для кнопок */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
